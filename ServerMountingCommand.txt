@@ -1,0 +1,14 @@
+//To mount the storage server to one of the pc's:
+
+cd media
+
+ls
+
+cd storage
+
+ls
+
+sudo mount 192.168.1.250:/media/storage /media /storage
+
+
+//if this action does nothing try restarting the server.
